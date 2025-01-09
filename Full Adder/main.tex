@@ -5,7 +5,6 @@
 
 \begin{document}
 
-\tikzstyle{branch}=[fill,shape=circle,minimum size=3pt,inner sep=0pt]
 \begin{tikzpicture}
     %Gates
     \node[xor gate US, draw] (xor) at (1.0, -0.25) {};
@@ -37,8 +36,6 @@
     %Boolean Functions
     \draw (or.output) -- node[above]{\tiny $C_{in} = \bar x + \bar y$} ($(or) + (2.0, 0)$);
     \draw (xor2.output) -- node[above]{\tiny $S = A \oplus B \oplus C_{\text{in}}$} ($(xor2)+ (2.5,0)$);
-
 \end{tikzpicture}
-
 
 \end{document}
