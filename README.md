@@ -1,1 +1,1 @@
-# Logic-Circuits
+# Logic Circuits in **LaTeX**
